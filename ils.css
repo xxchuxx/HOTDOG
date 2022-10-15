@@ -1,0 +1,115 @@
+body {
+	background-image: url("Pink Beach.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+header {
+	position: sticky;
+	top: 25px;
+	z-index: 999;
+}
+
+.nav-area li {
+	background-color: #987669;
+	display: inline-block;
+}
+
+	.nav-area li a {
+		color: #d2caca;
+		text-decoration: none;
+		padding: 10px 25px;
+		font-family: 'Red Hat Mono', monospace;
+		font-size: 30px;
+		
+	}
+
+		.nav-area li a:hover {
+			background: #c1afa7;
+			color: #000000;
+			border-radius: 15px;
+			padding: 20px;
+			width: 200px;
+			height: 150px;
+			font-size:30px;
+		}
+.we{
+			padding-top:100px;
+			text-align: center;
+			vertical-align:middle;
+			color: #000;
+			font-size:60px;
+			font-family:Garamond;
+}
+.sup {
+	text-align: center;
+	vertical-align: middle;
+	color: #000;
+	font-size: 35px;
+	font-family: Garamond;
+}
+.left {
+	width: 45%;
+	height: fit-content;
+	float: left;
+	margin-top: 14.5px;
+	margin-left: 40px;
+}
+.right {
+	width: 50%;
+	height:fit-content;
+	
+	float: right;
+	margin-top: 14.5px;
+	margin-left: 35px;
+} 
+
+.container {
+	position: relative;
+	width: 50%;
+}
+
+.image {
+	display: block;
+	width:650px;
+	height:100%;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	right: 0;
+	background-color: #c1afa7;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+}
+
+.container:hover .overlay {
+	width: 650px;
+}
+
+
+
+.des {
+	margin-left: 10px;
+	text-align: center;
+	margin-top: 150px;
+	font-family:'Century Gothic';
+	font-size: 30px;
+	color: black;
+}
+.tion {
+	margin-left: 10px;
+	text-align: justify;
+	margin-top: 150px;
+	font-family: 'Century Gothic';
+	font-size: 30px;
+	margin-right:8px;
+	color: black;
+}

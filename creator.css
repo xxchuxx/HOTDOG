@@ -1,0 +1,76 @@
+body {
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+header {
+	position: sticky;
+	top: 25px;
+	z-index: 999;
+}
+
+.nav-area li {
+	background-color: #987669;
+	display: inline-block;
+}
+
+	.nav-area li a {
+		color: #d2caca;
+		text-decoration: none;
+		padding: 10px 25px;
+		font-family: 'Red Hat Mono', monospace;
+		font-size: 30px;
+	}
+
+		.nav-area li a:hover {
+			background: #c1afa7;
+			color: #000000;
+			border-radius: 15px;
+			padding: 20px;
+			width: 200px;
+			height: 150px;
+			font-size: 30px;
+		}
+.div1 {
+	float: left;
+	width: 35%;
+
+	
+	margin-top: 32px;
+	height: 100%;
+}
+.div2 {
+	float: right;
+	width: 64%;
+	
+	
+	margin-top: 32px;
+	height: 100%;
+}
+.name {
+	text-align: center;
+	font-size: 40px;
+	font-family: Impact;
+}
+
+.info {
+	font-size: 30px;
+	font-family: 'Red Hat Mono', monospace;
+}
+.con {
+	text-align: center;
+	font-size: 55px;
+	font-family: 'Red Hat Mono', monospace;
+}
+.ig{
+	margin-left:120px;
+}
+.fb {
+	margin-left: 70px;
+}
+.twt {
+	margin-left: 70px;
+}
+.me{
+	border:2px solid;
+}

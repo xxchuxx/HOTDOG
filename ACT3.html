@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+	<HTML>
+	<HEAD> <TITLE> ACT4</TITLE>
+	<SCRIPT type="text/javascript"> 
+			function sum(){
+				var first=document.getElementById("fir").value;
+				var a=parseInt(first);
+				var operator=document.getElementById("ope").value;
+				var second=document.getElementById("sec").value;
+				var b=parseInt(second);
+				var third=document.getElementById("thr").value;
+				var c = parseInt(third);
+				var plus="+";
+				var minus="-";
+				var pro="*";
+				var quo="/";
+					var sum=a+b+c;
+						var dif=a-b-c;
+							var p=a*b*c;
+								var q=a/b/c;
+				if(operator==plus){
+			
+				document.getElementById("result").innerHTML=first+ operator + second+ operator +third+"="+sum;
+				}else if(operator==minus){
+					document.getElementById("result").innerHTML=first+ operator + second+ operator +third+"="+dif;
+			
+				}else if(operator==pro){
+						document.getElementById("result").innerHTML=first+ operator + second+ operator +third+"="+p;
+				}else
+					document.getElementById("result").innerHTML=first+ operator + second+ operator +third+"="+q;
+			}
+	</SCRIPT>
+	</HEAD>
+	<BODY>
+		<h1> <input type="text" placeholder="First Number" id="fir"> </h1>
+		<h1> <input type="text" placeholder="Operator" id="ope"> </h1>
+		<h1> <input type="text" placeholder="Second Number" id="sec"> </h1>
+		<h1> <input type="text" placeholder="Third Number" id="thr"> </h1>
+		<h1> <input type="button" value="Compute" onClick=sum()> </h1>
+		<span id="result"> </span> <br />
+		<button onclick="document.location='home.html'">RETURN TO MAIN PAGE </button>
+	</BODY>
+	</HTML>
